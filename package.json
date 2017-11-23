@@ -8,9 +8,6 @@
   "scripts": {
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "release": {
-    "branch": "master"
-  },
   "dependencies": {
     "semantic-release": "^8.2.0"
   }
