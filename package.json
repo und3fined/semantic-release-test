@@ -1,0 +1,17 @@
+{
+  "name": "semantic-release",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "repository": "git@github.com:und3fined/semantic-release-test.git",
+  "author": "CuongLe <cuongle.kty@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "release": {
+    "branch": "master"
+  },
+  "dependencies": {
+    "semantic-release": "^8.2.0"
+  }
+}
